@@ -5,12 +5,3 @@
     --cor-destaque: #2bfdba;
     --cor-texto: #1ed311;
 }
-
-body{
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
