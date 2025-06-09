@@ -1,7 +1,38 @@
-:root{
-    --cor-fundo: #2e6d08;
-    --cor-principal: #1be569 ;
-    --cor-secundaria: #a0e810;
-    --cor-destaque: #2bfdba;
-    --cor-texto: #1ed311;
+* {More actions
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #4d805d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
 }
